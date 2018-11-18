@@ -3,7 +3,7 @@ import plotly
 import plotly.plotly as py
 import plotly.figure_factory as ff
 
-plotly.tools.set_credentials_file(username='imcdonald1', api_key='rKHp3ElEqqeIOLDKfhUZ')
+plotly.tools.set_credentials_file(username='imcdonald1', api_key='')
 
 def checkFips(x):
 	if(x < 10):
