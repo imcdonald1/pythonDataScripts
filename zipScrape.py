@@ -12,7 +12,7 @@ zipRows = zipList[0].find_all('tr')
 finalList = list()
 
 for i in range(len(zipRows)):
-	zipTD = zipRows[1].find_all('td')
+	zipTD = zipRows[i].find_all('td')
 	zipCode = zipTD[0].a.text[9:]
 	city = zipTD[1].a.text
 	county = zipTD[2].a.text
