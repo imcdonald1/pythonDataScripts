@@ -1,2 +1,2 @@
 # pythonDataVizScripts
-Python Scripts to query database and visualize data.
+Python Scripts to query databases, visualize data, and scrape websites.
